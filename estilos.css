@@ -1,0 +1,284 @@
+
+
+.bg-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #0A0D13;
+    color: #ffffff;
+    font-family: 150px;
+    text-align: justify;
+    font-family: Bahnschrift Condensed;
+    position: center center;
+  }
+
+
+.navbar {
+    /*--estilo barra navegador*/
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 5px;
+    font-family: Bahnschrift Condensed;
+    letter-spacing: 4px;
+    border-color: transparent;
+    background-color: #0A0D13;
+    
+    
+  }
+
+  
+
+
+    #hero{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      height: 90vh;
+      background-image: linear-gradient(
+          0deg,
+          rgba(0,0,0,0.5),
+          rgba(0,0,0,0.5)
+      )
+      ,url("portada.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+     
+  }
+  /*color de letras del hero encima de imagen*/
+  #hero h1{
+      color: rgb(255, 255, 255);
+  }
+  
+  #hero button{
+      font-size: 1.75em;
+      color: #000000;
+  }
+
+  button:hover{
+    background-color: rgb(134, 14, 14);
+    color: #ffffff;
+    
+}
+
+/* color container Diario*/
+#Diario{
+    background-color: #0A0D13;
+    color: white;
+    text-align: center;
+}
+
+#Diario .container{
+    padding: 150px 12px;
+}
+
+#Diario h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Diario p{
+    display: none;
+}
+
+
+/* configuracion de cartas de container (Diario de un asesino)*/
+#Diario .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+/*filtros para imagenes  cartas*/
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("cri1.png");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("film.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("grab.png");
+
+}
+
+/* posicion de carta container diario*/
+#Diario .informacion{
+    display: flex;
+    justify-content: center;
+}
+
+#Diario p{
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+
+#Diario .carta{
+    padding: 50px;
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-color: #0A0D13;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("cri1.png");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("film.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("grab.png");
+
+}
+
+/* cortometraje*/
+
+#hero1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 70vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("asesino.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+/*color de letras del hero encima de imagen*/
+#hero h1{
+    color: rgb(255, 255, 255);
+}
+
+#hero button{
+    font-size: 1.75em;
+    color: #000000;
+}
+
+button:hover{
+  background-color: rgb(134, 14, 14);
+  color: #ffffff;
+  
+}
+
+/*pie color*/
+.bg-4 {
+    background-color: #0a040425;
+    color: #0d0303;
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+    font-family: Bahnschrift Condensed;
+    text-align: justify;
+  }
+
+  .container-fluid {
+    /*agrega tamaño contenedores de colores */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #000000;}
+	.social ul li .icon-googleplus {background: #600429;}
+
+	.social ul li .icon-mail {background: #080808;}
+    .social ul li .icon-pinterest {background: #ae181f;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+.reservados{
+    
+    font-family: "FF Mark W05",Arial,sans-serif;
+    margin: 0 auto;
+    max-width: 640px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    text-align: center;
+    word-break: keep-all;
+    color: #ffffff;
+
+}
+.preservados{
+    margin:0px auto
+}
+
