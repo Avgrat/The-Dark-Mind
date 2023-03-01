@@ -1,6 +1,6 @@
 /*Creado por AV*/
 
-.bg-1 {
+.p-5 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +14,20 @@
     position: center center;
   }
 
+  .mt-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #0A0D13;
+    color: #ffffff;
+    font-family: 150px;
+    text-align: justify;
+    font-family: Bahnschrift Condensed;
+    position: center center;
+
+  }
 
 .navbar {
     /*--estilo barra navegador*/
@@ -75,9 +89,6 @@
     text-align: center;
 }
 
-#Diario .container{
-    padding: 150px 12px;
-}
 
 #Diario h2{
     margin-top: 0;
@@ -181,6 +192,60 @@
 
 /* cortometraje*/
 
+#corto{
+    background-color: #0A0D13;
+    color: white;
+    text-align: center;
+}
+
+
+#corto h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#corto p{
+    display: none;
+}
+
+/* podcast*/
+
+#podc{
+    background-color: #0A0D13;
+    color: white;
+    text-align: center;
+}
+
+
+#podc h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#podc p{
+    display: none;
+}
+
+
+/* making of*/
+
+#mak{
+    background-color: #0A0D13;
+    color: white;
+    text-align: center;
+}
+
+
+#mak h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#mak p{
+    display: none;
+}
+
+
 #hero1{
     display: flex;
     align-items: center;
@@ -269,10 +334,10 @@ button:hover{
     
     font-family: "FF Mark W05",Arial,sans-serif;
     margin: 0 auto;
-    max-width: 640px;
+    max-width: 100%;
     font-weight: 500;
     font-size: 13px;
-    line-height: 140%;
+    line-height: 100%;
     text-align: center;
     word-break: keep-all;
     color: #ffffff;
